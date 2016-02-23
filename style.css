@@ -1,18 +1,31 @@
 /* This is how you do a comment in css. */
 
 body {
-	background: lightcyan;
+	background: #ffffff;
 	width: 800px;
 	margin: auto;
 }
 
 h1 {
-	color: maroon;
+	color: #000000;
 	text-align: center;
 }
 
 p {
-	color: gray;
-	border: 1px solid gray;
-	padding: 10px;
+	color: #000000;
+	/*border: 1px solid gray;*/
+	/*padding: 5px;*/
+}
+
+a {
+	color: cornflowerblue;
+	text-decoration: none; 
+}
+
+a:visited {
+	color: tomato;
+}
+
+a:hover {
+	text-decoration: underline;
 }
